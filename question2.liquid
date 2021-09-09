@@ -1,0 +1,4 @@
+
+{% if collection.image %}
+    {{ collection.image | img_url: '2048x' | img_tag }}
+{% endif %}

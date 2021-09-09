@@ -1,0 +1,23 @@
+.button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: $black;
+    color: $white;
+    text-align: center;
+    border:none;
+    padding: 14px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten($black, 20%);
+    }
+
+    @media (min-width: $small) {
+        font-size: 14px;
+    }
+}

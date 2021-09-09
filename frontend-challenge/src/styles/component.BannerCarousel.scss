@@ -1,0 +1,15 @@
+.carousel {
+    ul.control-dots {
+        bottom: 175px;
+
+        .dot {
+            box-shadow: none;
+        }
+    }
+
+    @media (min-width: $small) {
+        ul.control-dots {
+            bottom: 0;
+        }
+    }
+}

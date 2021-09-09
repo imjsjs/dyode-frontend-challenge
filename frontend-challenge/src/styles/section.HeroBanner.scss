@@ -1,0 +1,73 @@
+.hero-banner {
+    display: block;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .hero-message {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: $feather;
+        height: 177px;
+        text-align: center;
+
+        .header1,
+        .subheader {
+            color: $green;
+        }
+
+        .header1 {
+            margin-top: 10px;
+        }
+
+        .subheader {
+            margin-bottom: 10px;
+        }
+
+        .button {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: $small) {
+        .hero-message {
+            display: block;
+            background: transparent;
+            position: absolute;
+            height: 100%;
+            top: 25%;
+            left: 8%;
+            text-align: left;
+
+            .button {
+                margin-top: 10px;
+            }
+
+            &.white-text {
+                .header1,
+                .subheader {
+                    color: $white;
+                }
+            }
+
+            &.green-button {
+                .button {
+                    background: $green;
+
+                    &:hover {
+                        background: lighten($green, 10%);
+                    }
+                }
+            }
+
+            &.align-right {
+                left: auto;
+                right: 8%;
+                top: 8%;
+            }
+        }
+    }
+}

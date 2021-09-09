@@ -1,0 +1,10 @@
+{% paginate collection.products by 12 %}
+    <div class="paginate-products">
+        {% for product in collection.products %}
+            <!-- include product card component -->
+        {% endfor %}
+    </div>
+    <div class="pagination">
+        {{ paginate | default_pagination: next: '>', previous: '<' }}
+    </div>
+{% endpaginate %}

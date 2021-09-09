@@ -1,0 +1,50 @@
+.product-card {
+    .product-card-title {
+        font-size: 16px;
+        line-height: 19px;
+        color: $black;
+        margin-top: 10px;
+    }
+
+    .product-card-category {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: $black;
+        margin-top: 5px;
+    }
+
+    .product-card-price {
+        font-family: Pacifico;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: $green;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+    @media (min-width: $small) {
+        .product-card-title {
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        .product-card-category {
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .product-card-price {
+            font-size: 26px;
+            line-height: 46px;
+        }
+
+        img {
+            max-width: 280px;
+        }
+    }
+}

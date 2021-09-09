@@ -1,0 +1,82 @@
+section.newsletter-signup {
+    background: $green;
+    text-align: center;
+    padding: 0 25px;
+    
+    img {
+        max-width: 28px;
+        margin-right: 5px;
+    }
+
+    h2,
+    p {
+        color: $white;
+    }
+
+    h2 {
+        padding: 15px;
+    }
+
+    input[type='text'] {
+        display: none;
+    }
+
+    button {
+        background: $green;
+        border: 1px solid $white;
+        padding: 15px 30px;
+        margin: 55px 0 25px;
+    }
+
+    @media (min-width: $small) {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 75px 50px;
+
+        h2 {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        img {
+            max-width: none;
+            margin-right: 10px;
+        }
+
+        .newsletter-signup-paragraph,
+        .newsletter-signup-input {
+            width: 50%;
+            text-align: left;
+        }
+
+        .newsletter-signup-input {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+
+            input[type='text'] {
+                display: inline;
+                border: none;
+                padding: 15px 30px;
+                margin-right: 10px;
+                width: 50%;
+
+                &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color: darken($feather, 20%);
+                    opacity: 1; /* Firefox */
+                  }
+                  
+                &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color: darken($feather, 20%);
+                  }
+                  
+                &::-ms-input-placeholder { /* Microsoft Edge */
+                    color: darken($feather, 20%);
+                  }
+            }
+            button {
+                margin: auto;
+            }
+        }
+    }
+}

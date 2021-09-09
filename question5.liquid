@@ -1,0 +1,21 @@
+{% assign text = 'fruit:apple,vegetable:carrot,cloth:t-shirt,denim:jeans' %}
+
+{% assign objArr = text | split: ',' %}
+{% assign keyArr = ''%}
+{% assign valArr = ''%}
+
+{% for obj in objArr %}
+    {% assign key = obj | split: ':' | first %}
+    {% assign value = obj | split: ':' | last %}
+    {% assign keyArr = keyArr| append: ',' | append: key %}
+    {% assign valArr = valArr| append: ',' | append: value %}
+{% endfor %}
+
+{% assign keyArr = keyArr | remove_first: ',' | split: ',' %}
+{% assign valArr = valArr | remove_first: ',' | split: ',' %}
+
+{% for obj in objArr %}
+    {% if keyArr[forloop.index0] == 'cloth' or keyArr[forloop.index0] == 'denim' %}
+        {% assign storedValue = valArr[forloop.index0] %}
+    {% endif %}
+{% endfor %}

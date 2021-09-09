@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    @media (min-width: $small) {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+a {
+    text-decoration: none;
+}
+.header1 {
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 46px;
+
+    @media (min-width: $small) {
+        font-size: 60px;
+        line-height: 105px;
+    }
+}
+.header2 {
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+
+    @media (min-width: $small) {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+.subheader {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    @media (min-width: $small) {
+        font-size: 26px;
+        line-height: 31px;
+    }
+}
+.text-center {
+    text-align: center;
+}
