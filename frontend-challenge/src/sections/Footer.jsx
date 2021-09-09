@@ -1,12 +1,12 @@
-import React from "react"
-import Collapsible from 'react-collapsible'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Collapsible from 'react-collapsible';
+import { Link } from 'react-router-dom';
 
-function Footer() {
+const Footer = () => {
     return (
         <section className="footer">
             <Collapsible trigger="Customer Service" open>
-                <ul class="footer-link-list">
+                <ul className="footer-link-list">
                     <li><Link to="/">Accessibility</Link></li>
                     <li><Link to="/">Contact Us</Link></li>
                     <li><Link to="/">Return Policy</Link></li>
@@ -16,16 +16,16 @@ function Footer() {
                 </ul>
             </Collapsible>
             <Collapsible trigger="Company">
-                <ul class="footer-link-list">
+                <ul className="footer-link-list">
                     <li><Link to="/">About Us</Link></li>
                     <li><Link to="/">Careers</Link></li>
                     <li><Link to="/">Press</Link></li>
                     <li><Link to="/">Affiliates</Link></li>
                 </ul>
             </Collapsible>
-            <div class="footer-socials">
+            <div className="footer-socials">
                 <h2 className="header2">Follow Us</h2>
-                <div class="footer-socials-container">
+                <div className="footer-socials-container">
                     <Link to="/"><img src="/icons/facebook.svg" alt="facebook"/></Link>
                     <Link to="/"><img src="/icons/instagram.svg" alt="instagram"/></Link>
                     <Link to="/"><img src="/icons/twitter.svg" alt="twitter"/></Link>

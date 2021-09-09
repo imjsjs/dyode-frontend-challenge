@@ -1,6 +1,6 @@
 import React from "react";
 
-function Topbar() {
+const Topbar = () => {
     return (
         <section className="topbar">
             <span className="topbar-text-mobile">Free Shipping On All Orders</span>

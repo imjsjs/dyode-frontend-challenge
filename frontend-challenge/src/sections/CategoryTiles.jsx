@@ -1,7 +1,7 @@
 import React from "react";
-import CategoryTile from "./component.CategoryTile";
+import CategoryTile from "../components/CategoryTile";
 
-function CategoryTiles() {
+const CategoryTiles = () => {
     return (
         <section className="category-tiles">
             <div className="container">

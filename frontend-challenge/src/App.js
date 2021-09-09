@@ -1,12 +1,12 @@
-import './App.scss'
-import {BrowserRouter as Router} from 'react-router-dom'
-import Topbar from './components/section.Topbar'
-import Header from './components/section.Header'
-import Home from './components/page.Home'
-import Footer from './components/section.Footer'
-import MobileMenu from './components/section.MobileMenu'
+import './App.scss';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Topbar from './sections/Topbar';
+import Header from './sections/Header';
+import Home from './pages/Home';
+import Footer from './sections/Footer';
+import MobileMenu from './sections/MobileMenu';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">

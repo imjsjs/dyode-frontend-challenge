@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from 'react-router-dom'
-import { slide as Menu } from 'react-burger-menu'
+import React from "react";
+import { Link } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu';
 
-function MobileMenu() {
+const MobileMenu = () => {
     return (
         <div className="mobile-menu">
             <Menu width={280} height={400} noOverlay>

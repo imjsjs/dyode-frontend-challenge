@@ -28,4 +28,14 @@ section.new-arrivals {
             }
         }
     }
+
+    @media (min-width: $small) {
+        ul.slider {
+            margin-left: -12.5%;
+        }
+
+        .carousel {
+            margin: 45px 0;
+        }
+    }
 }

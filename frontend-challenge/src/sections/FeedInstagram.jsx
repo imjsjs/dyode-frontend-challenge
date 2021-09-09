@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from 'react-router-dom';
 
-function FeedInstagram() {
+const FeedInstagram = () => {
     return (
         <section className="feed-instagram">
             <h2 className="header1 text-center">Follow Us On Instagram!</h2>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import HeroBanner from './section.HeroBanner';
+import HeroBanner from '../components/HeroBanner';
 
 class BannerCarousel extends Component {
     render() {

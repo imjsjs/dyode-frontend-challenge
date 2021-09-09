@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from 'react-router-dom';
 
-function NewsletterSignup() {
+const NewsletterSignup = () => {
     return (
         <section className="newsletter-signup">
             <h2 className="header1 text-center"><img src="/icons/envelope.svg" alt="envelope"/>Sign Up & Stay Connected</h2>

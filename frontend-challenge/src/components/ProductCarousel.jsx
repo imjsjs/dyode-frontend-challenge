@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import ProductCard from './component.ProductCard';
-import matchMobileBreakpoint from './function.matchMobileBreakpoint';
+import ProductCard from './ProductCard';
+import matchMobileBreakpoint from '../functions/matchMediaBreakpoint';
 
 class BannerCarousel extends Component {
     render() {
         return (
             <Carousel 
                 centerMode
-                centerSlidePercentage={matchMobileBreakpoint ? 50 : 25}
+                centerSlidePercentage={matchMobileBreakpoint()}
                 infiniteLoop 
                 showArrows 
                 showThumbs={false} 

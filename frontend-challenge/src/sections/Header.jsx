@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from 'react-router-dom';
 
-function Header() {
+const Header = () => {
     return (
         <nav className="header">
             <div className="header-menu-mobile">

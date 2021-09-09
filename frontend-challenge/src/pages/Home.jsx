@@ -1,10 +1,10 @@
 import React from "react";
-import CarouselBanner from './section.BannerCarousel'
-import CategoryTiles from "./section.CategoryTiles";
-import HeroBanner from "./section.HeroBanner";
-import NewArrivals from "./section.NewArrivals";
-import FeedInstagram from "./section.FeedInstagram";
-import NewsletterSignup from "./section.NewsletterSignup";
+import CarouselBanner from '../sections/BannerCarousel'
+import CategoryTiles from "../sections/CategoryTiles";
+import HeroBanner from "../components/HeroBanner";
+import NewArrivals from "../sections/NewArrivals";
+import FeedInstagram from "../sections/FeedInstagram";
+import NewsletterSignup from "../sections/NewsletterSignup";
 
 function Home() {
     return (

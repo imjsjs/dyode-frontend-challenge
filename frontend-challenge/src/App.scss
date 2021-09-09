@@ -1,20 +1,20 @@
-@import './styles/base.breakpoints';
-@import './styles/base.colors';
-@import './styles/base.typography';
-@import './styles/base.buttons';
+@import './styles/breakpoints';
+@import './styles/colors';
+@import './styles/typography';
+@import './styles/buttons';
 
-@import './styles/component.BannerCarousel';
-@import './styles/component.ProductCard';
-@import './styles/component.CategoryTile';
-@import './styles/section.MobileMenu';
-@import './styles/section.Topbar';
-@import './styles/section.Header';
-@import './styles/section.NewArrivals';
-@import './styles/section.HeroBanner';
-@import './styles/section.CategoryTiles';
-@import './styles/section.FeedInstagram';
-@import './styles/section.NewsletterSignup';
-@import './styles/section.Footer';
+@import './components/ProductCard';
+@import './components/CategoryTile';
+@import './components/HeroBanner';
+@import './sections/BannerCarousel';
+@import './sections/MobileMenu';
+@import './sections/Topbar';
+@import './sections/Header';
+@import './sections/NewArrivals';
+@import './sections/CategoryTiles';
+@import './sections/FeedInstagram';
+@import './sections/NewsletterSignup';
+@import './sections/Footer';
 
 * {
   margin: 0;
