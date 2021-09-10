@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 
 const FeedInstagram = () => {
     return (
@@ -15,12 +16,14 @@ const FeedInstagram = () => {
                 <div className="feed-instagram-image">
                     <Link to="/"><img src="/social/social-3.png" alt="feed-3"/></Link>
                 </div>
-                <div className="feed-instagram-image">
-                    <Link to="/"><img src="/social/social-4.png" alt="feed-4"/></Link>
-                </div>
-                <div className="feed-instagram-image">
-                    <Link to="/"><img src="/social/social-5.png" alt="feed-5"/></Link>
-                </div>
+                <MediaQuery minWidth={992}>
+                    <div className="feed-instagram-image">
+                        <Link to="/"><img src="/social/social-4.png" alt="feed-4"/></Link>
+                    </div>
+                    <div className="feed-instagram-image">
+                        <Link to="/"><img src="/social/social-5.png" alt="feed-5"/></Link>
+                    </div>
+                </MediaQuery>
             </div>
         </section>
     )

@@ -21,18 +21,8 @@ section.feed-instagram {
                 width: 100%;
             }
 
-            &:nth-child(4),
-            &:nth-child(5) {
-                display: none;
-            }
-
             @media (min-width: $small) {
                 width: calc( (100% / 5) - 20px );
-
-                &:nth-child(4),
-                &:nth-child(5) {
-                    display: block;
-                }
             }
         }
     }
