@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/css/main.d1b482c1.chunk.css",
-    "main.js": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/main.14019e83.chunk.js",
-    "main.js.map": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/main.14019e83.chunk.js.map",
+    "main.js": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/main.ae53855e.chunk.js",
+    "main.js.map": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/main.ae53855e.chunk.js.map",
     "runtime-main.js": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/runtime-main.70c1b35c.js",
     "runtime-main.js.map": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/js/runtime-main.70c1b35c.js.map",
     "static/css/2.4ce9e501.chunk.css": "/imjsjs/dyode-frontend-challenge/frontend-challenge/static/css/2.4ce9e501.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.7d95925b.chunk.js",
     "static/css/main.d1b482c1.chunk.css",
-    "static/js/main.14019e83.chunk.js"
+    "static/js/main.ae53855e.chunk.js"
   ]
 }
