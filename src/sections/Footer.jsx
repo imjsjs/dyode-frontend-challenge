@@ -26,9 +26,9 @@ const Footer = () => {
             <div className="footer-socials">
                 <h2 className="header2">Follow Us</h2>
                 <div className="footer-socials-container">
-                    <Link to="/"><img src="/icons/facebook.svg" alt="facebook"/></Link>
-                    <Link to="/"><img src="/icons/instagram.svg" alt="instagram"/></Link>
-                    <Link to="/"><img src="/icons/twitter.svg" alt="twitter"/></Link>
+                    <Link to="/"><img src="icons/facebook.svg" alt="facebook"/></Link>
+                    <Link to="/"><img src="icons/instagram.svg" alt="instagram"/></Link>
+                    <Link to="/"><img src="icons/twitter.svg" alt="twitter"/></Link>
                 </div>
             </div>
         </section>
